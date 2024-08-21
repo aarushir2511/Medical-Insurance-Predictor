@@ -203,6 +203,7 @@ if st.session_state.page == 3:
     def prediction_rfr_pt2(new_input):
         prediction = rfr2.predict(new_input)
         prediction = prediction.round(2)
+        prediction = prediction*83.89
         return prediction
 
     if st.button("Predict"):
