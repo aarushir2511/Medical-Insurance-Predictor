@@ -61,4 +61,4 @@ The model performed exceptionally well, with a Root Mean Square Error (RMSE) of 
 
 
 ## **License**
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/aarushir2511/Medical-Insurance-Predictor/blob/main/LICENSE) file for details.
