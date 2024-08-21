@@ -23,7 +23,7 @@ if st.session_state.page == 1:
     st.write('The Medical Insurance Predictor is a machine learning-based application that predicts medical insurance costs for individuals based on various factors such as age, BMI, smoking status, and more. This tool can help insurance companies estimate premiums and assist users in understanding the factors influencing their insurance costs.')
 
     st.header('Dataset :-')
-    df = pd.read_csv('C:/Users/KIIT/Desktop/MedInsPred/medical_insurance.csv')
+    df = pd.read_csv('medical_insurance.csv')
     st.dataframe(df, height=500)
 
     st.subheader("Dataset Features")
@@ -84,7 +84,7 @@ if st.session_state.page == 2:
     st.title('Data Visualization')
     st.write('Here we will only discuss how smoker, age and bmi affect predictor and the correlation between every every entity to each entity.')
 
-    df = pd.read_csv('C:/Users/KIIT/Desktop/MedInsPred/medical_insurance.csv')
+    df = pd.read_csv('medical_insurance.csv')
 
     st.subheader("Age VS Charges")
     fig, ax1 = plt.subplots(figsize=(10, 6))
@@ -153,10 +153,10 @@ if st.session_state.page == 2:
 if st.session_state.page == 3:
     st.header('Medical Insurance Predictor')
 
-    with open('C:/Users/KIIT/Desktop/MedInsPred/med_rfr.sav' , 'rb') as file:
+    with open('med_rfr.sav' , 'rb') as file:
         rfr2 = pickle.load(file)
 
-    df = pd.read_csv('C:/Users/KIIT/Desktop/MedInsPred/medical_insurance.csv')
+    df = pd.read_csv('medical_insurance.csv')
     
     left,right = st.columns(2)
     
