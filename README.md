@@ -62,9 +62,3 @@ The model performed exceptionally well, with a Root Mean Square Error (RMSE) of 
 
 ## **License**
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## **Contact**
-For any questions or issues, feel free to reach out:
-
-- Your Name - [Your Email](mailto:your-email@example.com)
-- LinkedIn - [Your LinkedIn](https://www.linkedin.com/in/yourprofile/)
